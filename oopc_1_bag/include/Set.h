@@ -2,6 +2,7 @@
 #define SET_H
 
 extern const void * Set;
+extern const void * Object;
 
 void * add (void * set, const void * element);
 void * find (const void * set, const void * element);

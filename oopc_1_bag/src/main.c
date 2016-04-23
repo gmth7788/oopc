@@ -11,9 +11,6 @@
 #include "Object.h"
 #include "Set.h"
 
-const void * Set;
-const void * Object;
-
 int main ()
 {
 	void * s = new(Set);
