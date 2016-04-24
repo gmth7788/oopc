@@ -1,0 +1,25 @@
+08:48:14 **** Build of configuration Debug for project oopc_2_string ****
+make all 
+Building file: ../src/String.c
+Invoking: GCC C Compiler
+gcc -I"/home/wangbin/workspace/oopc_2_string/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String.d" -MT"src/String.o" -o "src/String.o" "../src/String.c"
+Finished building: ../src/String.c
+ 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -I"/home/wangbin/workspace/oopc_2_string/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/new.c
+Invoking: GCC C Compiler
+gcc -I"/home/wangbin/workspace/oopc_2_string/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/new.d" -MT"src/new.o" -o "src/new.o" "../src/new.c"
+Finished building: ../src/new.c
+ 
+Building target: oopc_2_string
+Invoking: GCC C Linker
+gcc  -o "oopc_2_string"  ./src/String.o ./src/main.o ./src/new.o   
+Finished building target: oopc_2_string
+ 
+
+08:48:14 Build Finished (took 489ms)
+
